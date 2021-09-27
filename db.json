@@ -1,0 +1,225 @@
+{
+  "Employees": [
+    {
+        "id": "1",
+        "name": "usmanbajwa",
+        "email": "usmanbajwa878@gmail.com",
+        "password": "12334567",
+        "status": "probation",
+        "age": "45",
+        "accountId": "12345678",
+        "payrole": "45000",
+        "contactNumber": "1313131",
+        "role": "electrician"
+    },
+    {
+      "id": "2",
+      "name": "usmanbajwa",
+      "email": "usmanbajwa878@gmail.com",
+      "password": "12334567",
+      "status": "probation",
+      "age": "45",
+      "accountId": "12345678",
+      "payrole": "45000",
+      "contactNumber": "1313131",
+      "role": "service Advisor"
+    },
+    {
+      "id": "3",
+      "name": "usmanbajwa",
+      "email": "usmanbajwa878@gmail.com",
+      "password": "12334567",
+      "status": "probation",
+      "age": "45",
+      "accountId": "12345678",
+      "payrole": "45000",
+      "contactNumber": "1313131",
+      "role": "electrician"
+    }
+  ],
+  "Admins": [
+    {
+      "id": "1",
+      "name": "usmanbajwa",
+      "email": "usmanbajwa878@gmail.com",
+      "password": "12334567",
+      "role": "admin",
+      "contactNumber": "1313131"
+    }
+  ],
+  "Jobs": [],
+  "Inventory": [
+    {
+      "companyTools": [
+        {
+          "productId": "1",
+          "category": "geniuine",
+          "productYype": "body",
+          "name": "car paint",
+          "costPrice": "45",
+          "retailPrice": "45",
+          "make": "suzuki",
+          "model": "2019",
+          "warrantyEnd": "aug 2019",
+          "warrantyStart": "aug 2019",
+          "vendorId": "1",
+          "inStock": "45",
+          "issuedBy": [
+            {
+              "employeeId": "1",
+              "date": "25 Aug 2021"
+            }
+          ]
+        }
+      ],
+      "directSelling": [
+        {
+          "productId": "1",
+          "category": "geniuine",
+          "productType": "body",
+          "name": "car paint",
+          "costPrice": "45",
+          "retailPrice": "45",
+          "make": "suzuki",
+          "model": "2019",
+          "warrantyEnd": "aug 2019",
+          "warrantyStart": "aug 2019",
+          "vendorId": "1",
+          "inStock": "45"
+        }
+      ]
+    }
+  ],
+  "Accounts": [
+    {
+      "Employee": [
+        {
+          "employeeId": "1",
+          "payrole": "45000",
+          "loans": [
+            {
+              "loanId": "1",
+              "loanAmount": "20000",
+              "issueDate": "24 Aug 2021",
+              "dueDate": "25 Aug 2021",
+              "loanStatus": "notPaid"
+            }
+          ],
+          "payHistory": [
+            {
+              "payId": "1",
+              "payAmount": "20000",
+              "issueDate": "24 Aug 2021",
+              "receviedBy": "Self"
+            }
+          ]
+        }
+      ],
+      "RunningExpenses": [
+        {
+          "bills": [],
+          "rent": [],
+          "maintaince": []
+        }
+      ],
+      "Installments": [],
+      "CustomerAccounts": [
+        {
+          "vehicleId": "4334343",
+          "totalAmoutReceived": "4343",
+          "totalPayable": "353",
+          "costPrice": "43535",
+          "profit": "42343"
+        }
+      ],
+      "ContactualExpenses": [],
+      "OwnerExpenses": [],
+      "Recoveries": [],
+      "debts": []
+    }
+  ],
+  "Vendors": [
+    {
+      "vendorId": "1",
+      "vendorName": "vendorName",
+      "products": [
+        {
+          "productId": "1",
+          "category": "geniuine",
+          "productType": "body",
+          "name": "car paint",
+          "costPrice": "45",
+          "retailPrice": "45",
+          "make": "suzuki",
+          "model": "2019",
+          "warrantyEnd": "aug 2019",
+          "warrantyStart": "aug 2019",
+          "inStock": "45"
+        }
+      ],
+      "transactions": [
+        {
+          "products": [
+            {
+              "productId": "1"
+            },
+            {
+              "productId": "2"
+            }
+          ],
+          "transactionDate": "25 Aug 2021",
+          "totalAmount": "45000",
+          "amountPaid": "45000",
+          "completedBy": "haider bajwa"
+        }
+      ]
+    }
+  ],
+  "Vehicle": [
+    {
+      "vehicleId": "1",
+      "regNo": "ISD-2021-19",
+      "vehicleName": "mehran",
+      "make": "suzuki",
+      "model": "2019",
+      "ownerName": "Aqeel",
+      "contactNumber": "1313131",
+      "workHistory": [
+        {
+          "jobId": "1",
+          "totalAmount": "45000",
+          "jobs": [
+            "detaling"
+          ],
+          "serviceIdvisior": "manager",
+          "startDate": "25 Aug 2021",
+          "deliveryDate": "26 Aug 2021",
+          "warranty": "1 year",
+          "extraNotes": "give feedback",
+          "images": [],
+          "status": "completed"
+        }
+      ]
+    }
+  ],
+  "Services": [
+    {
+      "serviceId": "1",
+      "price": "25000",
+      "name": "car paint",
+      "model": "2019",
+      "make": "suzuki",
+      "warranty": "1 year"
+    }
+  ],
+  "Marketing": [
+    {
+      "marketingId": "1",
+      "marketingAgency": "test",
+      "marketingServices": "video marketing",
+      "marketingCost": "450000",
+      "reference": "own",
+      "amountPaid": "20000"
+    }
+  ]
+}
